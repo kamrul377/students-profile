@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input{ 
+    @apply bg-slate-700 text-white px-3 py-1 my-1 outline-none border-indigo-500 rounded shadow-sm
+}
