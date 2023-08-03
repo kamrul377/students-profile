@@ -22,12 +22,12 @@ const Student = () => {
   return (
     <>
 
-      <div className='bg-[#12c0c0]'>
+      <div className='bg-gradient-to-r from-cyan-500 to-blue-500'>
         <div>
           <h1 className='text-white text-3xl font-bold text-center'>All Students</h1>
           <hr />
         </div>
-        <div className='bg-white dark:bg-[#28223f] w-full min-h-screen'>
+        <div className='bg-gradient-to-b from-blue-500 tocy w-full min-h-screen'>
           <div className='grid sm:grid-cols-2 lg:grid-cols-3 w-[95%] md:w-[80%] mx-auto gap-2'>
             {
 
