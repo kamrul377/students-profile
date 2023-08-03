@@ -1,9 +1,5 @@
 
 
-{
-    "routes": [
-      { "src": "/add-student", "dest": "/src/components/Student/AddStudent.jsx" },
-      { "src": "/contact", "dest": "/src/components/Contact.jsx" }
-    ]
-  }
-  
+{ 
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}

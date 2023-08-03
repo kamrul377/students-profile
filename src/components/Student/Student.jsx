@@ -22,7 +22,7 @@ const Student = () => {
   return (
     <>
 
-      <div className='bg-[#28223f]'>
+      <div className='bg-[#12c0c0]'>
         <div>
           <h1 className='text-white text-3xl font-bold text-center'>All Students</h1>
           <hr />
